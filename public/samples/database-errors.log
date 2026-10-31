@@ -1,0 +1,17 @@
+2026-10-31T08:05:10Z ERROR db-service Connection refused: unable to connect to PostgreSQL at db-primary:5432
+2026-10-31T08:05:11Z ERROR db-service Connection refused: unable to connect to PostgreSQL at db-primary:5432
+2026-10-31T08:05:12Z WARN db-service Database connection pool is nearing exhaustion
+2026-10-31T08:05:13Z ERROR db-service Query failed: timeout after 15s while reading from replica
+2026-10-31T08:05:14Z ERROR db-service Query failed: timeout after 15s while reading from replica
+2026-10-31T08:05:16Z ERROR app-api Error: failed to acquire connection from pool
+2026-10-31T08:05:18Z ERROR app-api Error: failed to acquire connection from pool
+2026-10-31T08:05:19Z ERROR db-service Connection timeout during transaction commit
+2026-10-31T08:05:20Z WARN app-api Retry scheduled for DB write operation
+2026-10-31T08:05:21Z ERROR db-service SQLSTATE[08006] connection refused by server
+2026-10-31T08:05:22Z ERROR app-api HTTP 500 GET /orders/1001 failed due to DB connectivity issue
+2026-10-31T08:05:24Z ERROR app-api HTTP 500 GET /orders/1001 failed due to DB connectivity issue
+2026-10-31T08:05:25Z ERROR db-service Connection pool exhausted for write operations
+2026-10-31T08:05:27Z ERROR app-api HTTP 503 GET /orders/1001 failed due to DB connectivity issue
+2026-10-31T08:05:28Z INFO app-api Service recovered after reconnect
+2026-10-31T08:05:29Z WARN app-api Backoff delay 2s for retry
+2026-10-31T08:05:30Z INFO db-service Database health check succeeded

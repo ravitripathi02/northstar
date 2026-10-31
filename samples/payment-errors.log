@@ -1,0 +1,21 @@
+2026-10-31T09:00:13Z INFO payment-api Starting request /v1/payments/charge
+2026-10-31T09:00:14Z WARN payment-api Retry attempt 1 for payment charge
+2026-10-31T09:00:16Z ERROR payment-api HTTP 500 payment gateway timeout while processing charge
+2026-10-31T09:00:17Z ERROR payment-api Database connection refused: connection pool exhausted
+2026-10-31T09:00:18Z ERROR payment-api Payment service timed out after 30000ms
+2026-10-31T09:00:19Z ERROR payment-api HTTP 500 Internal Server Error from payment processor
+2026-10-31T09:00:21Z WARN payment-api Retrying payment after 3s
+2026-10-31T09:00:22Z ERROR payment-api Database connection refused: connection pool exhausted
+2026-10-31T09:00:23Z ERROR payment-api HTTP 500 payment gateway timeout while processing charge
+2026-10-31T09:00:25Z ERROR payment-api Database connection refused: connection pool exhausted
+2026-10-31T09:00:27Z ERROR payment-api Payment service timed out after 30000ms
+2026-10-31T09:00:28Z ERROR payment-api HTTP 500 payment gateway timeout while processing charge
+2026-10-31T09:00:29Z ERROR payment-api Database connection refused: connection pool exhausted
+2026-10-31T09:00:30Z ERROR payment-api Payment service timed out after 30000ms
+2026-10-31T09:00:31Z ERROR payment-api HTTP 500 payment gateway timeout while processing charge
+2026-10-31T09:00:32Z ERROR payment-api Database connection refused: connection pool exhausted
+2026-10-31T09:00:35Z INFO payment-api Request completed with status 503
+2026-10-31T09:00:36Z ERROR payment-api HTTP 500 Internal Server Error from payment processor
+2026-10-31T09:40:02Z INFO auth-service User session lookup successful
+2026-10-31T09:40:03Z INFO inventory-service Inventory fetch succeeded
+2026-10-31T09:40:04Z INFO payment-api Payment request queued for retry
